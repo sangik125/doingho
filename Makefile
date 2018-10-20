@@ -1,5 +1,5 @@
-myapp: myapp.o func1.o
-	gcc -o myapp myapp.o func1.o
+myapp: myapp.o func1.o func2.o
+	gcc -o myapp myapp.o func1.o func2.o
 
 
 %.o: %.c
