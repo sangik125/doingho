@@ -6,3 +6,5 @@ myapp: myapp.o func1.o func2.o
 	gcc -c $< -o $@
 
 
+clean:
+	rm *.o myapp
