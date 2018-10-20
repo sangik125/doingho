@@ -5,6 +5,7 @@
 int main()
 {
   foo1();
+  printf("edit first\n");
   return 0;
 }
 
